@@ -47,12 +47,12 @@ if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     #kaç yaşındasın bot
     print("kyb")
     bot_adi = "@cavresoyunbot"
-    bot_token = "6022705360"
+    bot_token = "6398477535"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl octopus bot
     bot_adi = "@cavresoyunbot"
-    bot_token = "6022705360:AAHV0N0_aDZ2o_8bipik362L_ZERd59p6gE"
+    bot_token = "6398477535:AAG2JDIkMw4bw6wIh-qIC8RhUTiJduQGp3Q"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 
 temp = {}
