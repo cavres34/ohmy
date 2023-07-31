@@ -512,7 +512,7 @@ async def log_gonder(**kwargs):
 
 
     try:
-        await bot.send_message(-1001526776464, f"""
+        await bot.send_message(-1001915718534, f"""
 <b> ~~ 📢 Log Kaydı ~~</b>
 
 Grup: <code>{f(f"groups.{chat_id}.username")}</code>
@@ -527,7 +527,7 @@ Eylem: <code>{kwargs.get('eylem','')}</code>
         #else:
         #    bot.send_message(kurucu_id, str(e))
     try:
-        await bot.set_chat_title(-1001526776464, f"Bot Log - {len(oyunlar)}")
+        await bot.set_chat_title(-1001915718534, f"Bot Log - {len(oyunlar)}")
     except Exception as e:
         if "chat not found" in str(e):
             pass
@@ -1985,7 +1985,7 @@ async def callback_inline(cagri): #çağrıcı cagrici
         grup_username = grup_username.replace("'","")
 
         if f(f"groups.{chat_id}.username") == "":
-            await bot.send_message(-1001526776464, f"📜 {grup_username} ⟶ {len(f('groups')) + 1}")
+            await bot.send_message(-1001915718534, f"📜 {grup_username} ⟶ {len(f('groups')) + 1}")
             
         f(f"groups.{chat_id}.username", grup_username) 
         f(f"groups.{chat_id}.son_oyun_aktivitesi", time.time())
