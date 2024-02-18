@@ -51,16 +51,16 @@ if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl octopus bot
-    bot_adi = "@telegramgame"
-    bot_token = "6718278324:AAEPLJvFB9o8eL9ZeHaME69oVD5j89CUJKE"
+    bot_adi = "@cavresgame"
+    bot_token = "6503694447:AAFfkMhq3w9-bryC0uwFC1-Dt8mKfv6Gy4I"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 
 temp = {}
 
 
-kurucu_id = 6381139369
+kurucu_id = 6683031701
 
-admins = [kurucu_id, 6381139369]
+admins = [kurucu_id, 6683031701]
 
 zaman_hassasiyeti = pow(10,6)
 
